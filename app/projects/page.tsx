@@ -1,0 +1,2 @@
+import ProjectFilter from "@/components/ProjectFilter";
+export default function Projects(){return <div className="shell"><section className="page-hero"><div className="eyebrow">Portfolio / Selected work</div><h1 className="page-title">Projects & practice.</h1><p className="lead">A growing collection of academic work, experiments, and technical learning. Each entry should link to a repository, demo, or case study once verified and ready to share.</p></section><section className="section"><ProjectFilter/></section></div>}
